@@ -1,0 +1,111 @@
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e9ecef;
+}
+
+#logo {
+  font-family: 'COCOGOOSE', sans-serif;
+  color: #272a31;
+  font-weight: 700;
+  padding-left: 2%;
+}
+
+nav {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #e9ecef;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#open-menu-button,
+#close-menu-button {
+  position: absolute;
+  top: 2%;
+  right: 4%;
+}
+
+.search-input button {
+  background-color: transparent;
+  border: none;
+  margin-left: -5%;
+}
+
+#open-menu button,
+#close-menu button {
+  background-color: transparent;
+  border: none;
+}
+
+.search-input img {
+  width: 30%;
+  height: 35%;
+}
+
+#open-menu-button img,
+#close-menu-button img {
+  width: 30px;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.search-input input {
+  width: 55%;
+  height: 35%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 25%;
+  width: 100%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #272a31;
+}
+
+nav ul li a:hover {
+  color: #ec5242;
+}
+
+#close-menu {
+  display: block;
+}
