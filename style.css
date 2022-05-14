@@ -13,9 +13,11 @@ body {
 header {
   width: 100%;
   height: 10%;
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
 }
 
 #logo {
@@ -28,7 +30,7 @@ header {
 
 nav {
   height: 100%;
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   top: 0;
@@ -45,6 +47,7 @@ nav {
   position: absolute;
   top: 2%;
   left: 4%;
+  padding: 2%;
 }
 
 #open-menu button,
@@ -84,4 +87,41 @@ nav ul li a:hover {
 
 #close-menu {
   display: block;
+}
+
+.hero {
+  margin-top: 20%;
+  padding-left: 5%;
+  width: 100%;
+  height: 100%;
+  background: url(img/hero/background.png) no-repeat;
+  background-size: 50%;
+  background-clip: border-box;
+  background-position: 119% 0%;
+}
+
+.hero h1 {
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  font-weight: 400;
+  font-size: 20px;
+  width: 50%;
+}
+
+.hero #h1-supportingText {
+  font-family: 'COCOGOOSE', sans-serif;
+  color: #ec5242;
+  font-weight: 500;
+  font-size: 27px;
+  width: 72%;
+  margin: 0;
+}
+
+.hero blockquote {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  margin: 0;
+  margin-top: 3%;
+  width: 55%;
+  margin-bottom: 5%;
 }
