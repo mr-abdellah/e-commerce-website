@@ -56,6 +56,10 @@ nav {
   border: none;
 }
 
+.service-icon img {
+  width: 40px;
+}
+
 #open-menu-button img,
 #close-menu-button img {
   width: 30px;
@@ -89,11 +93,12 @@ nav ul li a:hover {
   display: block;
 }
 
+/* Style Hero section */
+
 .hero {
   margin-top: 20%;
   padding-left: 5%;
   width: 100%;
-  height: 100%;
   background: url(img/hero/background.png) no-repeat;
   background-size: 50%;
   background-clip: border-box;
@@ -124,4 +129,70 @@ nav ul li a:hover {
   margin-top: 3%;
   width: 55%;
   margin-bottom: 5%;
+}
+
+/* Style services section */
+
+.services {
+  height: 92%;
+  width: 100%;
+  background-color: #272a31;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+.line {
+  border-top: 1px solid #ec5242;
+  margin-bottom: 5%;
+  width: 5%;
+  text-align: center;
+}
+
+.services-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.service {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 4fr;
+  padding-left: 5%;
+  background-color: #434750;
+  margin-bottom: 3%;
+  align-items: center;
+}
+
+.service-title {
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+}
+
+.service-desc {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+#service-btn {
+  font-family: 'Lato', sans-serif;
+  background-color: #ec5242;
+  border: none;
+  width: 30%;
+  color: #fff;
+  padding: 3%;
 }
