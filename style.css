@@ -134,7 +134,7 @@ nav ul li a:hover {
 /* Style services section */
 
 .services {
-  height: 92%;
+  height: 100%;
   width: 100%;
   background-color: #272a31;
   text-align: center;
@@ -154,7 +154,7 @@ h2 {
 .line {
   border-top: 1px solid #ec5242;
   margin-bottom: 5%;
-  width: 5%;
+  width: 10%;
   text-align: center;
 }
 
@@ -195,4 +195,101 @@ h2 {
   width: 30%;
   color: #fff;
   padding: 3%;
+}
+
+/* TREND NOW */
+
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.products-container {
+  height: 100%;
+  width: 95%;
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+}
+
+.product {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.image {
+  height: 100%;
+  width: 25%;
+}
+
+.image img {
+  width: 100%;
+}
+
+.details {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: flex-start;
+  padding-left: 5%;
+}
+
+h4 {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.details-line {
+  border-top: 1px solid #d3d3d3;
+  width: 10%;
+  text-align: left;
+  margin: 1% 0;
+}
+
+.type,
+.desc {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #ec5242;
+  font-size: 13px;
+}
+
+.type {
+  margin-top: 1%;
+}
+
+.desc {
+  color: #272a31;
+  font-weight: 600;
+}
+
+.show-more {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-more button {
+  width: 95%;
+  padding: 5%;
+  font-family: 'Lato', sans-serif;
+  background-color: transparent;
+  border: 1px solid #dbdcdd;
+}
+
+#arrow {
+  width: 4%;
+}
+
+#less {
+  display: none;
 }
