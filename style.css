@@ -16,7 +16,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #e9ecef;
 }
 
 #logo {
@@ -24,6 +23,7 @@ header {
   color: #272a31;
   font-weight: 700;
   padding-left: 2%;
+  display: none;
 }
 
 nav {
@@ -44,13 +44,7 @@ nav {
 #close-menu-button {
   position: absolute;
   top: 2%;
-  right: 4%;
-}
-
-.search-input button {
-  background-color: transparent;
-  border: none;
-  margin-left: -5%;
+  left: 4%;
 }
 
 #open-menu button,
@@ -59,27 +53,9 @@ nav {
   border: none;
 }
 
-.search-input img {
-  width: 30%;
-  height: 35%;
-}
-
 #open-menu-button img,
 #close-menu-button img {
   width: 30px;
-}
-
-.search-input {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-}
-
-.search-input input {
-  width: 55%;
-  height: 35%;
 }
 
 nav ul {
