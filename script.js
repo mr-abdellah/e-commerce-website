@@ -24,7 +24,9 @@ links.forEach((link) => {
 });
 
 const productsContainer = document.querySelector('.products-container');
-function generateProducts ({ image, alt, title, type, description}) {
+function generateProducts({
+  image, alt, title, type, description,
+}) {
   return `
   <div class="product">
     <div class="image"><img src="${image}" alt="${alt}"></div>
@@ -100,4 +102,4 @@ less.addEventListener('click', () => {
   productsContainer.innerHTML = htmlProducts;
   more.style.display = 'block';
   less.style.display = 'none';
-})
+});
