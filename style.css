@@ -293,3 +293,49 @@ h4 {
 #less {
   display: none;
 }
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h5 {
+  font-family: 'COCOGOOSE', sans-serif;
+  color: #ec5242;
+  font-weight: 700;
+  font-size: 27px;
+  width: 70%;
+  text-align: center;
+}
+
+.h5-supportingText {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-size: 15px;
+  text-align: center;
+  width: 71%;
+  background-color: #fff;
+  border: 1px solid #dbdcdd;
+  padding: 5%;
+}
+
+.questions {
+  text-align: center;
+  font-size: 12px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questions p {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  width: 70%;
+}
+
+.questions a {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+}
