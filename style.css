@@ -374,7 +374,7 @@ h5 {
   height: 50%;
 }
 
-/* Partner */
+/* Partners */
 
 .partner {
   display: flex;
@@ -410,4 +410,22 @@ h5 {
 .partner-container img {
   width: 70%;
   margin: 10%;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h3 {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 500;
+  width: 30%;
+}
+
+footer p {
+  font-family: 'Lato', sans-serif;
 }
