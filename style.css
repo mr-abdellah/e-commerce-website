@@ -72,6 +72,11 @@ nav {
   width: 40px;
 }
 
+.partner-container img {
+  width: 70%;
+  margin: 10%;
+}
+
 #open-menu-button img,
 #close-menu-button img {
   width: 30px;
@@ -94,6 +99,15 @@ nav ul li a {
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 30px;
+  color: #272a31;
+}
+
+.partner-container a {
+  width: 50%;
+}
+
+.questions a {
+  font-family: 'Lato', sans-serif;
   color: #272a31;
 }
 
@@ -341,15 +355,14 @@ h5 {
   align-items: center;
 }
 
+footer p {
+  font-family: 'Lato', sans-serif;
+}
+
 .questions p {
   font-family: 'Lato', sans-serif;
   color: #272a31;
   width: 70%;
-}
-
-.questions a {
-  font-family: 'Lato', sans-serif;
-  color: #272a31;
 }
 
 /* Maps */
@@ -368,7 +381,7 @@ h5 {
   text-align: center;
 }
 
-.map-1 ,
+.map-1,
 .map-2 {
   display: flex;
   flex-direction: column;
@@ -383,7 +396,7 @@ h5 {
 }
 
 .maps .line {
-  margin-top: -10%;
+  margin-top: -3%;
 }
 
 #first-store,
@@ -433,15 +446,6 @@ h5 {
   width: 100%;
 }
 
-.partner-container a {
-  width: 50%;
-}
-
-.partner-container img {
-  width: 70%;
-  margin: 10%;
-}
-
 /* footer */
 
 footer {
@@ -456,10 +460,6 @@ footer h3 {
   width: 30%;
 }
 
-footer p {
-  font-family: 'Lato', sans-serif;
-}
-
 #second-link,
 #service-link,
 .desk-partner,
@@ -468,7 +468,6 @@ footer p {
 }
 
 @media only screen and (min-width: 768px) {
-
   html,
   body {
     padding: 0;
@@ -478,11 +477,7 @@ footer p {
     overflow-x: hidden;
   }
 
-  #service-link  {
-    display: block;
-  }
-
-  #open-menu ,
+  #open-menu,
   #close-menu,
   #service-btn,
   .show-more,
@@ -511,6 +506,14 @@ footer p {
     width: 100%;
   }
 
+  .questions a {
+    font-size: 20px;
+  }
+
+  .partner-container a {
+    width: 20%;
+  }
+
   #logo a {
     text-decoration: none;
     color: #272a31;
@@ -527,7 +530,7 @@ footer p {
   #first-link {
     margin-right: 20px;
   }
-  
+
   #second-link {
     display: block;
     margin-right: 20px;
@@ -585,7 +588,7 @@ footer p {
     padding: 0;
     margin: 0;
     width: 19%;
-    height: 85%
+    height: 85%;
   }
 
   .service:hover {
@@ -593,10 +596,11 @@ footer p {
   }
 
   #service-link {
+    display: block;
     color: #fff;
     font-family: 'Lato', sans-serif;
   }
-  
+
   .line {
     width: 4%;
   }
@@ -609,8 +613,13 @@ footer p {
 
   .products-container {
     grid-template-rows: repeat(3, auto);
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 5%;
+  }
+
+  footer h3 {
+    font-weight: 700;
+    font-size: 30px;
   }
 
   .products h3 {
@@ -670,10 +679,6 @@ footer p {
     margin-top: -4%;
   }
 
-  .partner-container a {
-    width: 20%;
-  }
-
   .partner-container img {
     width: 48%;
     margin: 0;
@@ -696,6 +701,11 @@ footer p {
     width: 20%;
   }
 
+  footer p {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
   .desktop-main-footer p {
     font-family: 'Lato', sans-serif;
   }
@@ -713,10 +723,6 @@ footer p {
   .questions p {
     font-size: 20px;
     width: 45%;
-  }
-
-  .questions a {
-    font-size: 20px;
   }
 
   /* Maps */
@@ -739,7 +745,7 @@ footer p {
     height: 65vh;
   }
 
-  .map1 iframe ,
+  .map1 iframe,
   .map2 iframe {
     height: 65vh;
     width: 100%;
@@ -753,9 +759,8 @@ footer p {
   .maps h1 {
     font-size: 50px;
   }
-  
+
   .maps .line {
-    margin-top: -5%;
     width: 10%;
   }
 
@@ -765,15 +770,5 @@ footer p {
     background-color: #272a31;
     color: #d3d3d3;
     height: 22%;
-  }
-
-  footer h3 {
-    font-weight: 700;
-    font-size: 30px;
-  }
-
-  footer p {
-    font-weight: 600;
-    font-size: 20px;
   }
 }
