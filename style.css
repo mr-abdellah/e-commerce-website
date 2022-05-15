@@ -495,4 +495,21 @@ footer p {
     font-weight: 500;
     width: 20%;
   }
+  .hero {
+    margin-top: 10%;
+    background-size: 34%;
+    background-position: 100% 0%;
+  }
+
+  .hero h1 {
+    font-size: 44px;
+  }
+
+  .hero #h1-supportingText {
+    font-size: 80px;
+  }
+
+  .hero blockquote {
+    font-size: 33px;
+  }
 }
