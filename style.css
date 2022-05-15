@@ -454,9 +454,15 @@ footer p {
     width: 100%;
     overflow-x: hidden;
   }
+
+  #service-link  {
+    display: block;
+  }
+
   #open-menu ,
   #close-menu,
-  #service-btn {
+  #service-btn,
+  .show-more {
     display: none;
   }
 
@@ -573,5 +579,42 @@ footer p {
 
   .services .line {
     margin: 0;
+  }
+
+  .products-container {
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 5%;
+  }
+
+  .products h3 {
+    font-weight: 800;
+    font-size: 27px;
+    margin-top: 5%;
+  }
+
+  .image img {
+    width: 82%;
+  }
+
+  .details {
+    padding: 0;
+  }
+
+  .details h4 {
+    font-size: 25px;
+  }
+
+  .details .type {
+    font-size: 15px;
+  }
+
+  .details-line {
+    width: 15%;
+    margin-bottom: 4%;
+  }
+
+  .desc {
+    font-size: 19px;
   }
 }

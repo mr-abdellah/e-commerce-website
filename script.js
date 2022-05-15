@@ -88,9 +88,6 @@ const products = [
   },
 ];
 
-const htmlProducts = products.slice(0, 2).map((product) => generateProducts(product)).join('');
-productsContainer.innerHTML = htmlProducts;
-
 const more = document.getElementById('more');
 const less = document.getElementById('less');
 more.addEventListener('click', () => {
@@ -106,3 +103,10 @@ less.addEventListener('click', () => {
   more.style.display = 'block';
   less.style.display = 'none';
 });
+
+const htmlProducts = products.slice(0, 2).map((product) => generateProducts(product)).join('');
+productsContainer.innerHTML = htmlProducts;
+
+if (window.screen.width >= 768) {
+  productsContainer.innerHTML = products.map((product) => generateProducts(product)).join('');
+}
