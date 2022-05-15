@@ -360,10 +360,30 @@ h5 {
   align-items: center;
 }
 
+.maps-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.map-1 ,
+.map-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .maps h1 {
   font-family: 'COCOGOOSE', sans-serif;
   font-weight: 400;
   font-size: 25px;
+}
+
+.maps .line {
+  margin-top: -10%;
 }
 
 #first-store,
@@ -390,7 +410,7 @@ h5 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
+  height: 80%;
   width: 100%;
   text-align: center;
   background-color: #272a31;
@@ -439,8 +459,11 @@ footer h3 {
 footer p {
   font-family: 'Lato', sans-serif;
 }
+
 #second-link,
-#service-link {
+#service-link,
+.desk-partner,
+.desktop-main-footer {
   display: none;
 }
 
@@ -462,7 +485,8 @@ footer p {
   #open-menu ,
   #close-menu,
   #service-btn,
-  .show-more {
+  .show-more,
+  .partner {
     display: none;
   }
 
@@ -581,6 +605,8 @@ footer p {
     margin: 0;
   }
 
+  /* Products */
+
   .products-container {
     grid-template-rows: repeat(3, auto);
     grid-template-columns: repeat(2,1fr);
@@ -616,5 +642,138 @@ footer p {
 
   .desc {
     font-size: 19px;
+  }
+
+  /* partners */
+
+  .desk-partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #272a31;
+    margin-top: 5%;
+  }
+
+  .desk-partner h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #d3d3d3;
+    margin-top: 3%;
+  }
+
+  .partner-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-bottom: 3%;
+    margin-top: -4%;
+  }
+
+  .partner-container a {
+    width: 20%;
+  }
+
+  .partner-container img {
+    width: 48%;
+    margin: 0;
+  }
+
+  /* desktop-main-footer */
+
+  .desktop-main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    border-bottom: 1px solid #272a31;
+  }
+
+  .desktop-main-footer h3 {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    width: 20%;
+  }
+
+  .desktop-main-footer p {
+    font-family: 'Lato', sans-serif;
+  }
+
+  #about h5 {
+    font-weight: 900;
+    font-size: 60px;
+  }
+
+  .h5-supportingText {
+    width: 33%;
+    font-size: 22px;
+  }
+
+  .questions p {
+    font-size: 20px;
+    width: 45%;
+  }
+
+  .questions a {
+    font-size: 20px;
+  }
+
+  /* Maps */
+
+  .maps-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .map-1,
+  .map-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 65vh;
+  }
+
+  .map1 iframe ,
+  .map2 iframe {
+    height: 65vh;
+    width: 100%;
+  }
+
+  .maps {
+    margin-top: 5%;
+    border-top: 1px solid #272a31;
+  }
+
+  .maps h1 {
+    font-size: 50px;
+  }
+  
+  .maps .line {
+    margin-top: -5%;
+    width: 10%;
+  }
+
+  /* footer */
+
+  footer {
+    background-color: #272a31;
+    color: #d3d3d3;
+    height: 22%;
+  }
+
+  footer h3 {
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  footer p {
+    font-weight: 600;
+    font-size: 20px;
   }
 }
