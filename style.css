@@ -101,6 +101,10 @@ nav ul li a:hover {
   color: #ec5242;
 }
 
+nav ul li a:active {
+  color: #ec5242;
+}
+
 #close-menu {
   display: block;
 }
