@@ -164,7 +164,7 @@ nav ul li a:hover {
 /* Style services section */
 
 .services {
-  height: 85vh;
+  height: 450px;
   width: 100%;
   background-color: #272a31;
   text-align: center;
@@ -742,7 +742,7 @@ footer h3 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90vh;
+    width: 430px;
     height: 65vh;
   }
 
