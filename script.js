@@ -21,8 +21,7 @@ links.forEach((link) => {
       openMenu.style.display = 'block';
       closeMenu.style.display = 'none';
       navBar.style.display = 'none';
-    }
-    else if (window.onload.screen.width > 768) {
+    } else if (window.onload.screen.width > 768) {
       navBar.style.display = 'flex';
     }
   });
