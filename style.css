@@ -164,7 +164,7 @@ nav ul li a:active {
 /* Style services section */
 
 .services {
-  height: 83%;
+  height: 70vh;
   width: 100%;
   background-color: #272a31;
   text-align: center;
@@ -423,7 +423,7 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80%;
+  height: 70vh;
   width: 100%;
   text-align: center;
   background-color: #272a31;
