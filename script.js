@@ -16,14 +16,13 @@ closeMenu.addEventListener('click', () => {
 });
 
 links.forEach((link) => {
+  if (window.onload.screen.width > 768) {
+    navBar.style.display = 'flex';
+  }
   link.addEventListener('click', () => {
     openMenu.style.display = 'block';
     closeMenu.style.display = 'none';
     navBar.style.display = 'none';
-    if (window.screen.width >= 768) {
-      navBar.style.display = 'flex';
-      link.preventDefault();
-    }
   });
 });
 
