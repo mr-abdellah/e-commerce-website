@@ -1,73 +1,53 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Abdou Shop
 
-> Description the project.
+> welcome to my e-commerce website , it is a simple store , responsive for both mobile and desktop
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Html
+- Css
+- JavaScript
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mr-abdellah.github.io/e-commerce-website/#home)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Download it as a ZIP file
 
-### Setup
+### Clone it in your local machine using GIT
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Abdellah Belkaid**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@mr-abdellah](https://github.com/mr-abdellah)
+- Twitter: [@belkaiduus](https://twitter.com/belkaiduus)
+- LinkedIn: [belkaidus](https://linkedin.com/in/belkaidus)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/mr-abdellah/e-commerce-website/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+## Credits
+- This website design is inspired from 'Cindy Shin' (https://www.behance.net/adagio07)
+- original design (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- The picture that is used in the hero section from : (shorturl.at/jHQV7)
+- icons pack (https://icons8.com/icon/set/ecommerce/offices)
