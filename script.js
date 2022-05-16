@@ -22,6 +22,7 @@ links.forEach((link) => {
     navBar.style.display = 'none';
     if (window.screen.width >= 768) {
       navBar.style.display = 'flex';
+      link.preventDefault();
     }
   });
 });
@@ -90,6 +91,10 @@ const products = [
 
 const more = document.getElementById('more');
 const less = document.getElementById('less');
+
+const htmlProducts = products.slice(0, 2).map((product) => generateProducts(product)).join('');
+productsContainer.innerHTML = htmlProducts;
+
 more.addEventListener('click', () => {
   const htmlProducts = products.map((product) => generateProducts(product)).join('');
   productsContainer.innerHTML = htmlProducts;
@@ -103,9 +108,6 @@ less.addEventListener('click', () => {
   more.style.display = 'block';
   less.style.display = 'none';
 });
-
-const htmlProducts = products.slice(0, 2).map((product) => generateProducts(product)).join('');
-productsContainer.innerHTML = htmlProducts;
 
 if (window.screen.width >= 768) {
   productsContainer.innerHTML = products.map((product) => generateProducts(product)).join('');
