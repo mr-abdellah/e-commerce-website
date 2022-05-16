@@ -16,13 +16,15 @@ closeMenu.addEventListener('click', () => {
 });
 
 links.forEach((link) => {
-  if (window.onload.screen.width > 768) {
-    navBar.style.display = 'flex';
-  }
   link.addEventListener('click', () => {
-    openMenu.style.display = 'block';
-    closeMenu.style.display = 'none';
-    navBar.style.display = 'none';
+    if (window.screen.width < 768) {
+      openMenu.style.display = 'block';
+      closeMenu.style.display = 'none';
+      navBar.style.display = 'none';
+    }
+    else if (window.onload.screen.width > 768) {
+      navBar.style.display = 'flex';
+    }
   });
 });
 
@@ -90,10 +92,6 @@ const products = [
 
 const more = document.getElementById('more');
 const less = document.getElementById('less');
-
-const htmlProducts = products.slice(0, 2).map((product) => generateProducts(product)).join('');
-productsContainer.innerHTML = htmlProducts;
-
 more.addEventListener('click', () => {
   const htmlProducts = products.map((product) => generateProducts(product)).join('');
   productsContainer.innerHTML = htmlProducts;
@@ -107,6 +105,9 @@ less.addEventListener('click', () => {
   more.style.display = 'block';
   less.style.display = 'none';
 });
+
+const htmlProducts = products.slice(0, 2).map((product) => generateProducts(product)).join('');
+productsContainer.innerHTML = htmlProducts;
 
 if (window.screen.width >= 768) {
   productsContainer.innerHTML = products.map((product) => generateProducts(product)).join('');
