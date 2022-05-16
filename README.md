@@ -51,3 +51,6 @@ Give a ⭐️ if you like this project!
 - original design (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 - The picture that is used in the hero section from : (shorturl.at/jHQV7)
 - icons pack (https://icons8.com/icon/set/ecommerce/offices)
+
+## VIdeo about this project :
+You can watch this video to see my website and its feautures (https://www.loom.com/share/229c6049de7c48c686840b85af04d0d0)
