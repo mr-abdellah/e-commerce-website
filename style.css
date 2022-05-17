@@ -461,6 +461,8 @@ footer h3 {
   width: 30%;
 }
 
+.navbar0,
+#company,
 #service-link,
 .desk-partner,
 .desktop-main-footer {
@@ -489,11 +491,67 @@ footer h3 {
 
   header {
     width: 100%;
+    height: 15%;
     border-bottom: 1px solid #272a31;
+    flex-direction: column;
+  }
+
+  .navbar0 {
+    display: flex;
+  }
+
+  .black-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-color: #1F2227;
+  }
+
+  .black-nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-right: 6%;
+  }
+
+  .black-nav-links li {
+    font-family: 'Lato', sans-serif;
+    color: #CACACA;
+    width: 5%;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  #fb-li,
+  #tw-li {
+    width: 2%;
+  }
+
+  #fb,
+  #tw {
+    width: 15px;
+    height: 15px;
+  }
+
+  .navbar1 {
+    display: flex;
+    width: 90%;
+    height: 75%;
+  
+    align-items: center;
   }
 
   .navbar {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     position: unset;
     background-color: transparent;
     width: 100%;
@@ -522,8 +580,8 @@ footer h3 {
   .navbar-links {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    width: 100%;
+    justify-content: space-evenly;
+    width: 50%;
     padding-right: 10%;
   }
 
@@ -537,9 +595,23 @@ footer h3 {
   }
 
   .navbar-link {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     width: 20%;
+  }
+
+  #company {
+    color: #ec5242;
+    padding: 2%;
+    border: 4px solid #ee4935;
+    white-space: nowrap;
+    margin-left: 8%;
+    text-decoration: none;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
   }
 
   /* hero section */
