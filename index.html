@@ -8,17 +8,107 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <div id="logo">ABDOU</div>
-        <div id="open-menu"><button id="open-menu-button" type="submit"><img src="img/header/open-menu.png" alt="open menu"></button></div>
-        <div class="search-input"><input type="search" name="search" id="search" placeholder="Search for items and brands"><button type="submit"><img src="img/header/search-icon.png" alt="search button"></button></div>
-        <nav class="navbar">
-            <div id="close-menu"><button id="close-menu-button" type="submit"><img src="img/header/close-menu.png" alt="close menu"></button></div>
-            <ul class="navbar-links">
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="first-section">
+        <header>
+            <nav class="black-nav">
+                <ul>
+                    <li><img src="img/login/facebook.png" alt="login with facebook"></li>
+                    <li><img src="img/login/twitter.png" alt="login with twitter"></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">My Page</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </nav>
+        
+            <div class="navbar1">
+                <div id="logo"><a href="index.html">ABDOU SHOP</a></div>
+                <div id="open-menu"><button id="open-menu-button" type="submit"><img src="img/header/open-menu.png" alt="open menu"></button></div>
+                <nav class="navbar">
+                    <div id="close-menu"><button id="close-menu-button" type="submit"><img src="img/header/close-menu.png" alt="close menu"></button></div>
+                    <ul class="navbar-links">
+                        <li><a class="navbar-link" id="first-link" href="index.html">HOME</a></li>
+                        <li><a class="navbar-link" id="second-link" href="#services">SERVICES</a></li>
+                        <li><a class="navbar-link" href="about.html">ABOUT</a></li>
+                    </ul>
+                </nav>
+                <a id="company" href="#">ABD Company</a>
+            </div>
+        </header>
+        <div class="hero" id="home">
+            <h1>"DO YOU WANNA LOOK BEAUTIFUL ?"</h1>
+            <p id="h1-supportingText">FIND THE MOST BEAUTIFUL CLOTHES!</p>
+            <blockquote>Style is a way to say who you are without having to speak. <br> —Rachel Zoe</blockquote>
+            <p class="date">2019.05.08(FRI) ~ 2022</p>
+            <p class="place">@ Audin , Algiers , Algeria</p>
+        </div>
+    </div>
+
+    <!-- services section -->
+
+    <div class="services" id="services">
+        <div class="services-title">
+            <h2>OUR SERVICES</h2>
+            <div class="line"></div>
+        </div>
+        <div class="services-container">
+            <div class="service">
+                <div class="service-icon"><img src="img/services-icons/price.png" alt="price"></div>
+                <p class="service-title">Price</p>
+                <p class="service-desc">Affordable prices</p>
+            </div>
+            <div class="service">
+                <div class="service-icon"><img src="img/services-icons/delivery.png" alt="delivery"></div>
+                <p class="service-title">Delivery</p>
+                <p class="service-desc">Fast delivery</p>
+            </div>
+            <div class="service">
+                <div class="service-icon"><img src="img/services-icons/quality.png" alt="quality"></div>
+                <p class="service-title">Quality</p>
+                <p class="service-desc">Good Quality</p>
+            </div>
+            <div class="service">
+                <div class="service-icon"><img src="img/services-icons/payment.png" alt="payment"></div>
+                <p class="service-title">Payment Method</p>
+                <p class="service-desc">we accept differnt payment methods</p>
+            </div>
+            <div class="service">
+                <div class="service-icon"><img src="img/services-icons/support.png" alt="support"></div>
+                <p class="service-title">Support</p>
+                <p class="service-desc">Support Team</p>
+            </div>
+        </div>
+        <button type="submit" id="service-btn">SHOP NOW !</button>
+        <a id="service-link" href="#">EXPLORE OUR OTHER SERVICES</a>
+    </div>
+
+    <!-- Products -->
+
+    <div class="products">
+        <h3 class="trending-now">TRENDING NOW</h3>
+        <div class="line"></div>
+        <div class="products-container"></div>
+        <div class="show-more"><button type="submit" id="more">MORE<img class="arrow" src="img/products/arrow-reverse.png" alt="arrow"></button></div>
+        <div class="show-more"><button type="submit" id="less">LESS<img class="arrow" src="img/products/arrow.png" alt="arrow"></button></div>
+    </div>
+
+    <!-- desktop partners -->
+    
+    <div class="desk-partner">
+        <h2>Partners</h2>
+        <div class="line"></div>
+        <div class="partner-container">
+            <a href="https://www.adidas.com/" rel="noopener" target="_blank" ><img src="img/partner/adidas.png" alt="adidas"></a>
+            <a href="https://global.lacoste.com/en/homepage" rel="noopener" target="_blank" ><img src="img/partner/lacoste.png" alt="lacoste"></a>
+            <a href="https://www.nike.com/" rel="noopener" target="_blank" ><img src="img/partner/nike.png" alt="nike"></a>
+            <a href="https://www.pullandbear.com/" rel="noopener" target="_blank" ><img src="img/partner/pull&bear.png" alt="pull&bear"></a>
+            <a href="https://www.zara.com/" rel="noopener" target="_blank" ><img src="img/partner/zara.png" alt="zara"></a>
+        </div>
+    </div>
+
+    <!-- main page footer for desktop -->
+    <div class="desktop-main-footer">
+        <h3>ABDOU SHOP</h3>
+        <p>2022 -Online Store .<br> All Rights Reserved <br>  Algiers ,<br> Algeria .</p>
+    </div>
 </body>
 </html>
