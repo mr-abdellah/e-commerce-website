@@ -8,12 +8,8 @@
 ## Built With
 
 - Html
-- Css
+- Css : Flex-box , Grid , Media Queries
 - JavaScript
-
-## Live Demo
-
-[Live Demo Link](https://mr-abdellah.github.io/e-commerce-website/#home)
 
 
 ## Getting Started
@@ -21,13 +17,14 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Download it as a ZIP file
+or
 
 ### Clone it in your local machine using GIT
+to get a local copy , clone the repository using git clone
+(https://github.com/mr-abdellah/e-commerce-website.git)
 
 
-
-
-## Authors
+## Author
 
 👤 **Abdellah Belkaid**
 
@@ -42,15 +39,18 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/mr-abdellah/e-commerce-website/issues).
 
-## Show your support
+## Live Demo
 
-Give a ⭐️ if you like this project!
+[Live Demo Link](https://mr-abdellah.github.io/e-commerce-website/)
 
 ## Credits
 - This website design is inspired from 'Cindy Shin' (https://www.behance.net/adagio07)
 - original design (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
-- The picture that is used in the hero section from : (shorturl.at/jHQV7)
 - icons pack (https://icons8.com/icon/set/ecommerce/offices)
 
 ## VIdeo about this project :
 You can watch this video to see my website and its feautures (https://www.loom.com/share/229c6049de7c48c686840b85af04d0d0)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
