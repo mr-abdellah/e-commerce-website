@@ -185,7 +185,7 @@ nav ul li a:hover {
 /* Style services section */
 
 .services {
-  height: 450px;
+  height: 100%;
   width: 100%;
   background: url(img/pattern_bg.jpeg), #272a31;
   text-align: center;
@@ -459,7 +459,7 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 85vh;
+  height: 100%;
   width: 100%;
   text-align: center;
   background-color: #272a31;
