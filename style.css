@@ -813,23 +813,30 @@ footer h3 {
     font-family: 'Lato', sans-serif;
   }
 
+  .about {
+    background: url(img/about_bg_01.png) no-repeat;
+    background-position: 38% 42%;
+    background-size: contain;
+  }
+
   .about h1 {
     font-family: 'Lato', sans-serif;
     color: #f43d28;
     font-weight: 400;
-    font-size: 20px;
-    width: 75%;
-    margin-top: 22%;
+    margin-top: 4%;
+    font-size: 44px;
+    width: 60%;
   }
 
   .about h5 {
-    background-color: red;
     font-family: 'COCOGOOSE', sans-serif;
     color: #f43d28;
     font-weight: 500;
     font-size: 27px;
     width: 72%;
     margin-top: 15px;
+    font-size: 75px;
+    width: 80%;
   }
 
   .h5-supportingText {
