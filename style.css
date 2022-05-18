@@ -13,11 +13,10 @@ body {
 header {
   width: 100%;
   height: 10%;
-  background-color: #fff;
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
 }
 
 #logo {
@@ -28,7 +27,7 @@ header {
   display: none;
 }
 
-nav {
+.navbar {
   height: 100%;
   position: fixed;
   left: 0;
@@ -48,6 +47,10 @@ nav {
   font-family: 'Lato', sans-serif;
   background-color: transparent;
   border: 1px solid #dbdcdd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
 }
 
 #open-menu-button,
@@ -124,28 +127,30 @@ nav ul li a:hover {
 }
 
 /* Style Hero section */
-
-.hero {
-  margin-top: 20%;
-  padding-left: 5%;
-  width: 100%;
-  background: url(img/hero/background.png) no-repeat;
-  background-size: 50%;
+.first-section {
+  background: url(img/hero/mobile_intro_bg.png) no-repeat;
+  background-size: 100%;
   background-clip: border-box;
   background-position: 125% 0%;
 }
 
+.hero {
+  padding-left: 5%;
+  width: 100%;
+}
+
 .hero h1 {
   font-family: 'Lato', sans-serif;
-  color: #ec5242;
+  color: #f43d28;
   font-weight: 400;
   font-size: 20px;
-  width: 50%;
+  width: 75%;
+  margin-top: 22%;
 }
 
 .hero #h1-supportingText {
   font-family: 'COCOGOOSE', sans-serif;
-  color: #ec5242;
+  color: #f43d28;
   font-weight: 500;
   font-size: 27px;
   width: 72%;
@@ -157,8 +162,24 @@ nav ul li a:hover {
   color: #272a31;
   margin: 0;
   margin-top: 3%;
-  width: 55%;
+  width: 83%;
   margin-bottom: 5%;
+}
+
+.date,
+.place {
+  color: #505050;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+  margin: 0;
+}
+
+.place {
+  font-weight: 600;
+  font-size: 18px;
+  color: #5b5b5b;
+  height: 20vh;
 }
 
 /* Style services section */
@@ -166,7 +187,7 @@ nav ul li a:hover {
 .services {
   height: 450px;
   width: 100%;
-  background-color: #272a31;
+  background: url(img/pattern_bg.jpeg), #272a31;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -207,7 +228,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 2fr 4fr;
   padding-left: 5%;
-  background-color: #434750;
+  background: #434750;
   margin-bottom: 3%;
   align-items: center;
 }
@@ -311,7 +332,7 @@ h4 {
 }
 
 .arrow {
-  width: 4%;
+  margin-left: 3%;
 }
 
 #less {
@@ -320,19 +341,33 @@ h4 {
 
 /* About */
 
-#about {
+.about {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  background: url(img/about_bg_01-Recovered.png) no-repeat;
+  background-size: 100%;
+  background-position: 54% 27%;
 }
 
-h5 {
+.about h1 {
+  font-family: 'Lato', sans-serif;
+  color: #f43d28;
+  font-weight: 400;
+  font-size: 20px;
+  width: 75%;
+  margin-top: 10%;
+}
+
+.about h5 {
   font-family: 'COCOGOOSE', sans-serif;
   color: #ec5242;
   font-weight: 700;
   font-size: 27px;
   width: 70%;
   text-align: center;
+  margin: 0;
 }
 
 .h5-supportingText {
@@ -461,7 +496,7 @@ footer h3 {
   width: 30%;
 }
 
-.navbar0,
+.black-nav,
 #company,
 #service-link,
 .desk-partner,
@@ -489,81 +524,6 @@ footer h3 {
 
   /* navbar */
 
-  header {
-    width: 100%;
-    height: 15%;
-    border-bottom: 1px solid #272a31;
-    flex-direction: column;
-  }
-
-  .navbar0 {
-    display: flex;
-  }
-
-  .black-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    position: absolute;
-    width: 100%;
-    height: 30%;
-    background-color: #1F2227;
-  }
-
-  .black-nav-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    padding-right: 6%;
-  }
-
-  .black-nav-links li {
-    font-family: 'Lato', sans-serif;
-    color: #CACACA;
-    width: 5%;
-    font-size: 13px;
-    font-weight: 700;
-    cursor: pointer;
-  }
-
-  #fb-li,
-  #tw-li {
-    width: 2%;
-  }
-
-  #fb,
-  #tw {
-    width: 15px;
-    height: 15px;
-  }
-
-  .navbar1 {
-    display: flex;
-    width: 90%;
-    height: 75%;
-  
-    align-items: center;
-  }
-
-  .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    position: unset;
-    background-color: transparent;
-    width: 100%;
-  }
-
-  #logo {
-    display: block;
-    font-weight: 500;
-    font-size: 25px;
-    width: 100%;
-  }
-
   .questions a {
     font-size: 20px;
   }
@@ -572,72 +532,141 @@ footer h3 {
     width: 20%;
   }
 
+  .black-nav {
+    display: flex;
+    background-color: #3e3e3e;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 4vh;
+    position: fixed;
+    top: 0;
+  }
+
+  .black-nav ul {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1%;
+    margin-right: 4%;
+  }
+
+  .black-nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    width: 10%;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .navbar1 {
+    width: 100%;
+    position: fixed;
+    top: 4vh;
+    height: 9%;
+    font-family: 'COCOGOOSE', sans-serif;
+    background-color: white;
+    border-bottom: 1px solid #3e3e3e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #logo {
+    display: block;
+    padding-left: 5%;
+  }
+
+  .navbar-links li a {
+    text-decoration: none;
+    font-size: 21px;
+  }
+
   #logo a {
     text-decoration: none;
-    color: #272a31;
+    color: black;
+    white-space: nowrap;
+    font-size: 30px;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: unset;
+    background: transparent;
   }
 
   .navbar-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 50%;
-    padding-right: 10%;
-  }
-
-  #first-link {
-    margin-right: 20px;
-  }
-
-  #second-link {
-    display: block;
-    margin-right: 20px;
-  }
-
-  .navbar-link {
-    font-size: 17px;
-    font-weight: 500;
-    width: 20%;
   }
 
   #company {
     color: #ec5242;
-    padding: 2%;
+    padding: 5px 0;
     border: 4px solid #ee4935;
     white-space: nowrap;
     margin-left: 8%;
     text-decoration: none;
-    width: 20%;
+    width: 12%;
     display: flex;
     justify-content: center;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
+    font-size: 22px;
   }
 
   /* hero section */
 
+  .first-section {
+    background: none;
+  }
+
   .hero {
-    margin-top: 10%;
-    background-size: 34%;
+    margin-top: -16%;
+    width: 100%;
+    height: 100%;
+    background: url(img/hero/main_big.png) no-repeat;
+    background-size: cover;
     background-position: 100% 0%;
   }
 
   .hero h1 {
     font-size: 44px;
+    padding-top: 7%;
+    width: 60%;
   }
 
   .hero #h1-supportingText {
-    font-size: 80px;
+    font-size: 75px;
+    width: 80%;
   }
 
   .hero blockquote {
     font-size: 33px;
+    background-color: #f7f7f7;
+    border: 3px solid white;
+    padding: 25px;
   }
 
   /* Services section */
 
   .services {
-    height: 70%;
+    height: 80%;
     display: grid;
     grid-template-rows: 1fr 4fr 1fr;
     grid-template-columns: 1fr;
@@ -659,7 +688,7 @@ footer h3 {
     text-align: center;
     padding: 0;
     margin: 0;
-    width: 19%;
+    width: 14%;
     height: 85%;
   }
 
@@ -671,6 +700,8 @@ footer h3 {
     display: block;
     color: #fff;
     font-family: 'Lato', sans-serif;
+    margin-bottom: 8%;
+    margin-top: 4%;
   }
 
   .line {
@@ -762,7 +793,7 @@ footer h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30%;
+    height: 20%;
     border-bottom: 1px solid #272a31;
   }
 
@@ -782,9 +813,23 @@ footer h3 {
     font-family: 'Lato', sans-serif;
   }
 
-  #about h5 {
-    font-weight: 900;
-    font-size: 60px;
+  .about h1 {
+    font-family: 'Lato', sans-serif;
+    color: #f43d28;
+    font-weight: 400;
+    font-size: 20px;
+    width: 75%;
+    margin-top: 22%;
+  }
+
+  .about h5 {
+    background-color: red;
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #f43d28;
+    font-weight: 500;
+    font-size: 27px;
+    width: 72%;
+    margin-top: 15px;
   }
 
   .h5-supportingText {

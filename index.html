@@ -8,37 +8,39 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <div class="navbar0">
+    <div class="first-section">
+        <header>
             <nav class="black-nav">
-                <ul class="black-nav-links">
-                    <li id="fb-li"><img id="fb" src="img/login/login_fb.png" alt="facebook icon"></li>
-                    <li id="tw-li"><img id="tw" src="img/login/login_tw.png" alt="twitter icon"></li>
-                    <li>English</li>
-                    <li>My Page</li>
-                    <li>Logout</li>
+                <ul>
+                    <li><img src="img/login/facebook.png" alt="login with facebook"></li>
+                    <li><img src="img/login/twitter.png" alt="login with twitter"></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">My Page</a></li>
+                    <li><a href="#">Logout</a></li>
                 </ul>
             </nav>
-        </div>
-        <div class="navbar1">
-            <div id="logo"><a href="index.html">ABDOU SHOP</a></div>
-            <div id="open-menu"><button id="open-menu-button" type="submit"><img src="img/header/open-menu.png" alt="open menu"></button></div>
-            <nav class="navbar">
-                <div id="close-menu"><button id="close-menu-button" type="submit"><img src="img/header/close-menu.png" alt="close menu"></button></div>
-                <ul class="navbar-links">
-                    <li><a class="navbar-link" id="first-link" href="index.html">HOME</a></li>
-                    <li><a class="navbar-link" id="second-link" href="#services">SERVICES</a></li>
-                    <li><a class="navbar-link" href="about.html">ABOUT</a></li>
-                </ul>
+        
+            <div class="navbar1">
+                <div id="logo"><a href="index.html">ABDOU SHOP</a></div>
+                <div id="open-menu"><button id="open-menu-button" type="submit"><img src="img/header/open-menu.png" alt="open menu"></button></div>
+                <nav class="navbar">
+                    <div id="close-menu"><button id="close-menu-button" type="submit"><img src="img/header/close-menu.png" alt="close menu"></button></div>
+                    <ul class="navbar-links">
+                        <li><a class="navbar-link" id="first-link" href="index.html">HOME</a></li>
+                        <li><a class="navbar-link" id="second-link" href="#services">SERVICES</a></li>
+                        <li><a class="navbar-link" href="about.html">ABOUT</a></li>
+                    </ul>
+                </nav>
                 <a id="company" href="#">ABD Company</a>
-            </nav>
+            </div>
+        </header>
+        <div class="hero" id="home">
+            <h1>"DO YOU WANNA LOOK BEAUTIFUL ?"</h1>
+            <p id="h1-supportingText">FIND THE MOST BEAUTIFUL CLOTHES!</p>
+            <blockquote>Style is a way to say who you are without having to speak. <br> —Rachel Zoe</blockquote>
+            <p class="date">2019.05.08(FRI) ~ 2022</p>
+            <p class="place">@ Audin , Algiers , Algeria</p>
         </div>
-    </header>
-
-    <div class="hero" id="home">
-        <h1>DO YOU WANNA LOOK BEAUTIFUL ?</h1>
-        <p id="h1-supportingText">Find The Most Beautiful And wanted Clothes In The Horizon !</p>
-        <blockquote>"What you wear is how you present yourself to the world, especially today, when human contacts are so quick. Fashion is instant language." <br>- Miuccia Prada</blockquote>
     </div>
 
     <!-- services section -->
@@ -85,8 +87,8 @@
         <h3 class="trending-now">TRENDING NOW</h3>
         <div class="line"></div>
         <div class="products-container"></div>
-        <div class="show-more"><button type="submit" id="more">MORE<img class="arrow" src="img/products/arrow.png" alt="arrow"></button></div>
-        <div class="show-more"><button type="submit" id="less">LESS<img class="arrow" src="img/products/arrow-reverse.png" alt="arrow"></button></div>
+        <div class="show-more"><button type="submit" id="more">MORE<img class="arrow" src="img/products/arrow-reverse.png" alt="arrow"></button></div>
+        <div class="show-more"><button type="submit" id="less">LESS<img class="arrow" src="img/products/arrow.png" alt="arrow"></button></div>
     </div>
 
     <!-- desktop partners -->
