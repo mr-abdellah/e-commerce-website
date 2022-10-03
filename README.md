@@ -21,7 +21,7 @@ or
 
 ### Clone it in your local machine using GIT
 to get a local copy , clone the repository using git clone
-(https://github.com/mr-abdellah/e-commerce-website.git)
+[tap here](https://github.com/mr-abdellah/e-commerce-website.git)
 
 
 ## Author
